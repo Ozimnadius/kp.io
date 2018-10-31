@@ -24,11 +24,12 @@
     z-index: 11;
     left: vm(1265);
     top: vm(1536);
-    letter-spacing: 6px;
+    letter-spacing: 5px;
   }
 
   &__subtitle {
     font-size: vm(50);
+    color: #666666;
     position: absolute;
     z-index: 12;
     left: vm(1265);
@@ -41,7 +42,7 @@
     position: absolute;
     z-index: 13;
     left: vm(935);
-    bottom: vm(260);
+    top: vm(2150);
     font-weight: bold;
     color: $bg;
     text-transform: uppercase;

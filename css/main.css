@@ -273,11 +273,12 @@ img {
   z-index: 11;
   left: 36.07072vw;
   top: 43.79812vw;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
 }
 
 .first__subtitle {
   font-size: 1.42572vw;
+  color: #666666;
   position: absolute;
   z-index: 12;
   left: 36.07072vw;
@@ -290,7 +291,7 @@ img {
   position: absolute;
   z-index: 13;
   left: 26.66096vw;
-  bottom: 7.41374vw;
+  top: 61.30596vw;
   font-weight: bold;
   color: #ffffff;
   text-transform: uppercase;
