@@ -1,0 +1,54 @@
+.first {
+  background-image: url(/images/bg/bg.png);
+  background-size: contain;
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__logo {
+    position: absolute;
+    z-index: 10;
+    top: vm(1303);
+    left: vm(1265);
+    font-size: vm(80);
+  }
+
+  &__title {
+    font-size: vm(76);
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 11;
+    left: vm(1265);
+    top: vm(1536);
+    letter-spacing: 6px;
+  }
+
+  &__subtitle {
+    font-size: vm(50);
+    position: absolute;
+    z-index: 12;
+    left: vm(1265);
+    top: vm(1645);
+    letter-spacing: 1.9px;
+  }
+
+  &__period {
+    font-size: vm(50);
+    position: absolute;
+    z-index: 13;
+    left: vm(935);
+    bottom: vm(260);
+    font-weight: bold;
+    color: $bg;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    &_violet {
+      color: #bc91eb;
+    }
+  }
+}

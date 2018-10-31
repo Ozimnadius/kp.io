@@ -1,0 +1,41 @@
+//variables
+//fonts
+$font: 'Museo Sans Cyrl', Arial, sans-serif;
+
+//colors
+$text: #333333;
+$bg: #ffffff;
+
+
+
+//layout
+/*-----------------SECTION-MIXINS--------------------*/
+@import "layout/_mixins";
+
+//another
+$font-size: vm(40);
+/*------------------------SECTION-FONTS----------------*/
+@import "layout/_fonts";
+/*------------------------SECTION-SMART-GRID----------------*/
+@import "layout/_smart-grid";
+/*------------------------SECTION-ADJUSTMENT----------------*/
+@import "layout/_adjustment";
+/*-----------------SECTION-HOVER-ANIM--------------------*/
+@import "layout/_hover-anim";
+/*------------------------SECTION-COMMON----------------*/
+@import "layout/_common";
+
+//sections
+/*------------------------SECTION-HEADER----------------*/
+@import "sections/_header";
+/*-----------------SECTION-FIRST--------------------*/
+@import "sections/_first";
+/*------------------------SECTION-FOOTER---------------------*/
+@import "sections/_footer";
+
+
+.debug {
+  //@include debug(rgba(0,0,0,0.3), 1px solid red);
+  //z-index: 100;
+  //top: 0;
+}

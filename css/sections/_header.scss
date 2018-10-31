@@ -1,0 +1,28 @@
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: vm(200);
+
+  &__wrapper {
+    width: 82.60621613915026%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: vm(140);
+  }
+
+  &__tel {
+    margin-right: vm(213);
+  }
+}
+
+.tel {
+  letter-spacing: 2px;
+}
+
+.email {
+  letter-spacing: 2px;
+}
