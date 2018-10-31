@@ -247,7 +247,7 @@ img {
 
 /*-----------------SECTION-FIRST--------------------*/
 .first {
-  background-image: url(/images/bg/bg.png);
+  background-image: url(../images/bg/bg.png);
   background-size: contain;
   background-position: 0 bottom;
   background-repeat: no-repeat;
