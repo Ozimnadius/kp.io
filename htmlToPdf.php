@@ -10,8 +10,8 @@ try
     $client->setNoMargins(true);
 
     // run the conversion and write the result to a file
-//    $client->convertUrlToFile("https://ozimnadius.github.io/kp.io/", "example.pdf");
-    $client->convertFileToFile("index.html", "example.pdf");
+    $client->convertUrlToFile("https://ozimnadius.github.io/kp.io/", "example.pdf");
+//    $client->convertFileToFile("index.html", "example.pdf");
 }
 catch(\Pdfcrowd\Error $why)
 {
