@@ -80,7 +80,7 @@ body {
   overflow: hidden;
 }
 
-.main {
+.page {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -267,6 +267,7 @@ img {
 
 .first__title {
   font-size: 2.16709vw;
+  word-break: keep-all;
   font-weight: 600;
   text-transform: uppercase;
   position: absolute;

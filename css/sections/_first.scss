@@ -18,6 +18,7 @@
 
   &__title {
     font-size: vm(76);
+    word-break: keep-all;
     font-weight: 600;
     text-transform: uppercase;
     position: absolute;

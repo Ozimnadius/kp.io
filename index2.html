@@ -9,16 +9,73 @@
     <meta name="keywords" content="Страница">
     <meta name="description" content="Страница">
 
-    <!--<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/site.webmanifest">
-    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">-->
+    <style>
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("fonts/MuseoSansCyrl-100.woff2") format("woff2"), url("fonts/MuseoSansCyrl-100.woff") format("woff");
+            font-weight: 200;
+            font-style: normal;
+        }
 
-    <link rel="stylesheet" href="css/vendor.min.css">
-    <link rel="stylesheet" href="css/main.css">
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("fonts/MuseoSansCyrl-500.woff2") format("woff2"), url("fonts/MuseoSansCyrl-500.woff") format("woff");
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl 900';
+            src: url("fonts/MuseoSansCyrl-900.woff2") format("woff2"), url("fonts/MuseoSansCyrl-900.woff") format("woff");
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("fonts/MuseoSansCyrl-300.woff2") format("woff2"), url("fonts/MuseoSansCyrl-300.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Museo Sans Cyrl';
+            src: url("fonts/MuseoSansCyrl-700.woff2") format("woff2"), url("fonts/MuseoSansCyrl-700.woff") format("woff");
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        .section {
+            position: relative;
+        }
+
+        .section:before {
+            content: '';
+            width: 100%;
+            padding-top: calc((210 / 297) * 100%);
+            display: block;
+        }
+
+        .section__wrapper {
+            position: absolute;
+            z-index: 10;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 82.60621613915026%;
+            padding-right: 3.99202vw;
+            margin: 0 auto;
+        }
+
+        .first {
+            background-image: url(images/bg/bg.png);
+            background-size: contain;
+            background-position: 0 bottom;
+            background-repeat: no-repeat;
+        }
+
+    </style>
 
 </head>
 <body>
@@ -111,7 +168,5 @@
     </div>
 </div>
 
-<script src="js/vendor.min.js"></script>
-<script src="js/main.js"></script>
 </body>
 </html>
