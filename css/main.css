@@ -275,6 +275,7 @@ img {
   left: 36.07072vw;
   top: 43.79812vw;
   letter-spacing: 5px;
+  white-space: nowrap;
 }
 
 .first__subtitle {
