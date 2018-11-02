@@ -174,6 +174,7 @@ body {
 
 .section {
   position: relative;
+  overflow: hidden;
 }
 
 .section:before {
@@ -497,6 +498,146 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 8.5px;
+}
+
+/*-----------------SECTION-COMP--------------------*/
+.comp__wrapper {
+  padding-top: 7.1286vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comp__left, .comp__right {
+  width: 50%;
+}
+
+.comp__left {
+  padding-left: 2.93698vw;
+  padding-right: 4.84745vw;
+}
+
+.comp__right {
+  padding-left: 2.42372vw;
+  padding-right: 2.42372vw;
+  padding-top: 1.42572vw;
+}
+
+.comp__title {
+  margin-bottom: 5.84545vw;
+}
+
+.comp__desc {
+  font-size: 0.85543vw;
+  margin-bottom: 1.71086vw;
+}
+
+.comp__fz {
+  font-weight: bold;
+  margin-bottom: 4.27716vw;
+}
+
+.comp__fz-text {
+  font-size: 0.68435vw;
+}
+
+.comp__fz-link {
+  font-size: 1.02652vw;
+  color: #8ebff3;
+}
+
+.comp__items {
+  margin-bottom: 15.82549vw;
+}
+
+.comp__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-bottom: 1.71086vw;
+}
+
+.comp__item:last-child {
+  margin-bottom: 0;
+}
+
+.comp__item-title {
+  color: #666666;
+  font-size: 0.85543vw;
+  font-weight: 500;
+  margin-right: 0.998vw;
+}
+
+.comp__item-value {
+  color: #7066ce;
+  font-size: 1.48275vw;
+  font-weight: bold;
+}
+
+.comp__spec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  color: #111111;
+  font-size: 0.68435vw;
+  position: relative;
+}
+
+.comp__spec-star {
+  color: #c4ffff;
+  font-size: 2.5663vw;
+  position: absolute;
+  right: 100%;
+  top: -0.85543vw;
+  margin-right: 0.65583vw;
+}
+
+.comp__subtitle {
+  color: #111111;
+  font-size: 1.1976vw;
+  font-weight: bold;
+  margin-bottom: 3.99202vw;
+}
+
+.comp__part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 5.41774vw;
+}
+
+.comp__part:last-child {
+  margin-bottom: 0;
+}
+
+.comp__part-pic {
+  height: 10.26518vw;
+  min-height: 10.26518vw;
+  margin-right: 2.28115vw;
+}
+
+.comp__worker {
+  color: #111111;
+  font-size: 0.85543vw;
+  text-transform: uppercase;
+  margin-bottom: 1.48275vw;
+}
+
+.comp__worker:last-child {
+  margin-bottom: 0;
+}
+
+.comp__worker_small {
+  font-size: 0.57029vw;
 }
 
 /*------------------------SECTION-FOOTER---------------------*/

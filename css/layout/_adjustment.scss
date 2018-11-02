@@ -53,6 +53,7 @@ body {
 
 .section {
   position: relative;
+  overflow: hidden;
 
   &:before {
     content: '';

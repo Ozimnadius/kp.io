@@ -1,5 +1,15 @@
 <?php
 
+header('Content-Type: application/pdf');
+header('Content-Disposition: inline; filename="text"');
+
+ob_start(); ?>
+    
+<?
+$html = ob_get_contents();
+ob_end_clean();
+
+/*
 require 'pdfcrowd-4.3.7/pdfcrowd.php';
 
 try
@@ -21,3 +31,4 @@ catch(\Pdfcrowd\Error $why)
     // handle the exception here or rethrow and handle it at a higher level
     throw $why;
 }
+*/
