@@ -180,7 +180,7 @@ body {
 .section:before {
   content: '';
   width: 100%;
-  padding-top: calc((1237 / 1754) * 100%);
+  padding-top: calc((1238 / 1754) * 100%);
   display: block;
 }
 
