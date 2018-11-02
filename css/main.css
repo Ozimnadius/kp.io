@@ -789,6 +789,67 @@ img {
   font-size: 0.57029vw;
 }
 
+/*-----------------SECTION-PRICES--------------------*/
+.prices__wrapper {
+  padding-top: 7.1286vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.prices__left, .prices__right {
+  width: 50%;
+}
+
+.prices__left {
+  padding-left: 2.93698vw;
+  padding-right: 2.93698vw;
+}
+
+.prices__right {
+  padding-left: 2.5663vw;
+  padding-right: 1.99601vw;
+}
+
+.prices__container {
+  position: relative;
+}
+
+.prices__desc {
+  padding-top: 1.42572vw;
+  font-weight: 500;
+  font-size: 0.91246vw;
+  line-height: 1.71086vw;
+}
+
+.price {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 19.10465vw;
+}
+
+.price__title {
+  color: #111111;
+  letter-spacing: 1px;
+  margin-bottom: 1.99601vw;
+}
+
+.price__value {
+  font-weight: bold;
+  font-size: 6.84346vw;
+  font-style: italic;
+  line-height: 1;
+  color: #666666;
+}
+
+.price__value_small {
+  font-size: 3.70687vw;
+}
+
 /*------------------------SECTION-FOOTER---------------------*/
 
 /*# sourceMappingURL=main.css.map */
