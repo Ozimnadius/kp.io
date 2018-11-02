@@ -1,0 +1,33 @@
+.portfolio {
+  &__wrapper{
+    padding-top: vm(250);
+    padding-left: vm(105);
+    padding-right: vm(105);
+  }
+
+  &__top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: vm(125);
+  }
+
+  &__link {
+    font-weight: 500;
+  }
+
+}
+
+.sites {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: vm(-40);
+  margin-right: vm(-40);
+}
+
+.site {
+  margin-right: 1.14058vw;
+  margin-left: 1.14058vw;
+  width: calc((100% / 3) - 2.28116vw);
+  margin-bottom: vm(70);
+}
