@@ -41,18 +41,50 @@
   &__title {
     color: #111111;
     letter-spacing: 1px;
-    margin-bottom: vm(70);
+    margin-bottom: vm(30);
+  }
+
+  &__text {
+    position: relative;
   }
 
   &__value {
+    font-family: "Exo 2";
     font-weight: bold;
-    font-size: vm(240);
     font-style: italic;
-    line-height: 1;
+    font-size: vm(240);
+    line-height: vm(220);
     color: #666666;
+    position: relative;
+    z-index: 20;
+
+    &:before {
+      content: attr(data-val);
+      display: block;
+    }
 
     &_small {
-      font-size: vm(130);
+      font-size: vm(150);
+    }
+  }
+
+  &__value-2 {
+    background-image: linear-gradient(to top, #c4ffff 0%, #c4ffff 41%, $bg 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0.6;
+    color:transparent;
+    font-family: "Exo 2";
+    font-size: vm(240);
+    font-weight: bold;
+    font-style: italic;
+    line-height: vm(220);
+    position: absolute;
+    top: 0;
+    left: vm(22);
+
+    &_small {
+      font-size: vm(150);
     }
   }
 }

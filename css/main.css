@@ -35,6 +35,34 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Exo 2';
+  src: url("../fonts/Exo2-Medium.woff2") format("woff2"), url("../fonts/Exo2-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url("../fonts/Exo2-Bold.woff2") format("woff2"), url("../fonts/Exo2-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url("../fonts/Exo2-BoldItalic.woff2") format("woff2"), url("../fonts/Exo2-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url("../fonts/Exo2-Regular.woff2") format("woff2"), url("../fonts/Exo2-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*------------------------SECTION-SMART-GRID----------------*/
 /*------------------------SECTION-ADJUSTMENT----------------*/
 input::-ms-clear {
@@ -835,19 +863,54 @@ img {
 .price__title {
   color: #111111;
   letter-spacing: 1px;
-  margin-bottom: 1.99601vw;
+  margin-bottom: 0.85543vw;
+}
+
+.price__text {
+  position: relative;
 }
 
 .price__value {
+  font-family: "Exo 2";
   font-weight: bold;
-  font-size: 6.84346vw;
   font-style: italic;
-  line-height: 1;
+  font-size: 6.84346vw;
+  line-height: 6.27317vw;
   color: #666666;
+  position: relative;
+  z-index: 20;
+}
+
+.price__value:before {
+  content: attr(data-val);
+  display: block;
 }
 
 .price__value_small {
-  font-size: 3.70687vw;
+  font-size: 4.27716vw;
+}
+
+.price__value-2 {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#c4ffff), color-stop(41%, #c4ffff), to(#ffffff));
+  background-image: -webkit-linear-gradient(bottom, #c4ffff 0%, #c4ffff 41%, #ffffff 100%);
+  background-image: -o-linear-gradient(bottom, #c4ffff 0%, #c4ffff 41%, #ffffff 100%);
+  background-image: linear-gradient(to top, #c4ffff 0%, #c4ffff 41%, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0.6;
+  color: transparent;
+  font-family: "Exo 2";
+  font-size: 6.84346vw;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 6.27317vw;
+  position: absolute;
+  top: 0;
+  left: 0.62732vw;
+}
+
+.price__value-2_small {
+  font-size: 4.27716vw;
 }
 
 /*------------------------SECTION-FOOTER---------------------*/
