@@ -23,6 +23,41 @@
 
   &__slogan {
     margin-bottom: vm(100);
+    position: relative;
+
+    font-family: "Exo 2";
+    font-size: vm(250);
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1;
+    &-text {
+      color: #666666;
+      position: relative;
+      z-index: 20;
+      opacity: .6;
+    }
+    &-text2 {
+      background-image: linear-gradient(to top, #c4ffff 0%, #c4ffff 41%, $bg 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      position: absolute;
+      z-index: 10;
+      top: vm(-24);
+      left: vm(22);
+      opacity: .6;
+    }
+    &-text3 {
+      color: #666666;
+      position: absolute;
+      z-index: 15;
+      opacity: .3;
+      left: vm(-10);
+      top: vm(8);
+    }
+
+
+
 
     &-img {
       height: vm(428);
