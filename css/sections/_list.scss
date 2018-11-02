@@ -67,12 +67,16 @@
 .logo {
   position: absolute;
   z-index: 20;
-  top: vm(645);
-  left: vm(60);
+  top: vm(650);
+  left: vm(80);
   transform: rotate(-90deg);
   transform-origin: 0 0;
   font-size: vm(80);
   font-weight: 600;
+
+  &__img {
+    height: vm(72);
+  }
 }
 
 .contacts {

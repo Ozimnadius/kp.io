@@ -389,8 +389,8 @@ img {
 .logo {
   position: absolute;
   z-index: 20;
-  top: 18.39179vw;
-  left: 1.71086vw;
+  top: 18.53436vw;
+  left: 2.28115vw;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
@@ -399,6 +399,10 @@ img {
   transform-origin: 0 0;
   font-size: 2.28115vw;
   font-weight: 600;
+}
+
+.logo__img {
+  height: 2.05304vw;
 }
 
 .contacts {
@@ -683,6 +687,106 @@ img {
 
 .site__img {
   display: block;
+}
+
+/*-----------------SECTION-STAGES--------------------*/
+.stages__wrapper {
+  padding-top: 7.1286vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stages__left, .stages__right {
+  width: 50%;
+}
+
+.stages__left {
+  padding-left: 2.93698vw;
+  padding-right: 5.70288vw;
+}
+
+.stages__right {
+  padding-left: 3.70687vw;
+  padding-right: 3.70687vw;
+  margin-top: -1.99601vw;
+}
+
+.stages__title {
+  margin-bottom: 6.55831vw;
+}
+
+.stages__subtitle {
+  font-size: 1.71086vw;
+  font-weight: bold;
+  margin-bottom: 1.14058vw;
+}
+
+.stages__desc {
+  font-size: 0.85543vw;
+  line-height: 0.998vw;
+}
+
+.stages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -1.85344vw;
+  margin-right: -1.85344vw;
+}
+
+.stage {
+  margin-left: 1.85344vw;
+  margin-right: 1.85344vw;
+  width: calc( 50% - 3.70687vw);
+  height: 13.74394vw;
+  border-radius: 1.14058vw;
+  background-color: rgba(220, 248, 253, 0.4);
+  padding-right: 0.71286vw;
+  padding-left: 1.05503vw;
+  padding-top: 2.28115vw;
+  margin-bottom: 1.99601vw;
+}
+
+.stage__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.71086vw;
+}
+
+.stage__number {
+  color: #ffffff;
+  font-family: "Museo Sans Cyrl -900";
+  font-size: 7.58483vw;
+  font-weight: bold;
+  letter-spacing: 1.19px;
+  line-height: 5.41774vw;
+  margin-right: 1.42572vw;
+}
+
+.stage__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.stage__title-text {
+  font-size: 0.74137vw;
+  font-weight: 600;
+}
+
+.stage__desc {
+  font-size: 0.57029vw;
 }
 
 /*------------------------SECTION-FOOTER---------------------*/
