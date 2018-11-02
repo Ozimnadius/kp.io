@@ -180,7 +180,7 @@ body {
 .section:before {
   content: '';
   width: 100%;
-  padding-top: calc((1230 / 1754) * 100%);
+  padding-top: calc((1237 / 1754) * 100%);
   display: block;
 }
 
@@ -380,7 +380,7 @@ img {
 .list__item-line {
   width: 17.39378vw;
   height: 1px;
-  background-image: url(/images/bg/line.png);
+  background-image: url(../images/bg/line.png);
   background-repeat: repeat-x;
   background-position: 0 0;
   margin-right: 1.71086vw;
