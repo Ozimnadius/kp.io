@@ -681,6 +681,10 @@ img {
   margin-bottom: 1.99601vw;
 }
 
+.site__img {
+  display: block;
+}
+
 /*------------------------SECTION-FOOTER---------------------*/
 
 /*# sourceMappingURL=main.css.map */

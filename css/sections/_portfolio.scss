@@ -30,4 +30,8 @@
   margin-left: 1.14058vw;
   width: calc((100% / 3) - 2.28116vw);
   margin-bottom: vm(70);
+
+  &__img {
+    display: block;
+  }
 }
